@@ -1,0 +1,97 @@
+.proveedores-container {
+  padding: 2rem 3rem;
+}
+
+.proveedores-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.admin-card {
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ddd;
+}
+
+
+.admin-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #ddd;
+  background: #f7f7f7;
+}
+
+.admin-title-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.admin-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.admin-title-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+
+.admin-actions-right {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  cursor: default;
+}
+
+.legend-item.legend-red {
+  cursor: pointer;
+}
+
+.legend-circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.legend-circle-blue {
+  background: #2d9cdb;
+}
+
+.legend-circle-red {
+  background: #e5533d;
+}
+
+.legend-blue span:last-child {
+  color: #2d9cdb;
+}
+
+.legend-red span:last-child {
+  color: #e5533d;
+}
+
+.admin-card-body {
+  padding: 1rem 1.5rem 1.2rem 1.5rem;
+}
+
+.proveedores-error {
+  color: red;
+  margin-bottom: 0.5rem;
+}
+
+.proveedores-loading {
+  margin-bottom: 0.5rem;
+}

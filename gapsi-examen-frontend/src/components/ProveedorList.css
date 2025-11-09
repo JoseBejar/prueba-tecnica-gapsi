@@ -1,0 +1,61 @@
+.tabla-card {
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+/* Contenedor con scroll (virtual scroll) */
+.tabla-scroll {
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.tabla-proveedores {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.tabla-proveedores thead {
+  background: #f0f0f0;
+}
+
+.tabla-proveedores th,
+.tabla-proveedores td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.tabla-proveedores tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.tabla-empty {
+  text-align: center;
+  color: #777;
+}
+
+.btn-accion-eliminar {
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  border: none;
+  background: #dc3545;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.btn-accion-eliminar:hover {
+  background: #b02a37;
+}
+
+.tabla-loading,
+.tabla-more {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  color: #555;
+}
