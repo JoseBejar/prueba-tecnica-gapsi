@@ -1,0 +1,39 @@
+### Maven ###
+/target
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+### Gradle (por si acaso tienes algo) ###
+/.gradle
+/build
+
+### Logs ###
+*.log
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Eclipse (si algún día abres ahí) ###
+.project
+.classpath
+.settings/
+.bin/
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
+
+### Otros binarios ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Entornos / secretos (ajusta según tu caso) ###
+.env
+application-*.yml
+application-*.properties
